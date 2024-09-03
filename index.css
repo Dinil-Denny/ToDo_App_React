@@ -3,7 +3,17 @@
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+#innerContainer{
+    display: flex;
+    justify-content: center;
+}
 #toDoHeader{
     text-align: center;
     margin: 100px 0 50px 0;
+}
+.taskText{
+    color: white;
+}
+#todos{
+    background-color: greenyellow;
 }
