@@ -7,7 +7,7 @@ const ToDoComponent = ({tasks}) => {
             {/* {tasks.map((task)=>
                 <h1 className="taskText">{task.taskName}</h1>
             )} */}
-            <h1 className="taskText">{tasks.taskName}</h1>
+            <p className="taskText">{tasks.taskName}</p>
         </div>
     )
 }

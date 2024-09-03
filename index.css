@@ -7,13 +7,49 @@
     display: flex;
     justify-content: center;
 }
+#componentsDiv{
+    width: 40%;
+}
 #toDoHeader{
     text-align: center;
     margin: 100px 0 50px 0;
 }
+#addTaskDiv{
+    display: flex;
+    justify-content: center;
+}
 .taskText{
-    color: white;
+    color: black;
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+    padding: 10px;
 }
 #todos{
-    background-color: greenyellow;
+    background-color: rgb(230, 230, 0);
+    
+}
+#toDoList{
+    background-color: rgb(92, 92, 92);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.inputBox{
+    outline-style: none;
+    border-style: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 40%;
+    margin-right: 5px;
+    padding: 10px;
+}
+#addTaskBtn{
+    background-color: rgb(1, 30, 255);
+    border-radius: 10px;
+    color: white;
+    border-style: none;
+    margin-left: 5px;
+    padding: 10px;
+    font-weight: 500;
 }

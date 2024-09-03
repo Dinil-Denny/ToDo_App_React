@@ -9,7 +9,7 @@ const [task,setTask] = useState('');
     return(
         <div id="bodyDiv">
             <div id="addTaskDiv">
-                <input type="text" value={task} placeholder="Add your task here" onChange={(e)=>{
+                <input className="inputBox" type="text" value={task} placeholder="Add your task here" onChange={(e)=>{
                     setTask(e.target.value);
                 }}></input>
                 <button id="addTaskBtn" onClick={()=>{

@@ -6,7 +6,7 @@ import Body from "./components/Body";
 const AppComponent = () => {
     return(
         <div id="innerContainer">
-            <div>
+            <div id="componentsDiv">
                 <Header/>
                 <Body/>
             </div>
